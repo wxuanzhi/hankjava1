@@ -6,7 +6,26 @@ public class PokerGame {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] flowers = {0x2663, 0x2666, 0x2665, 0x2660};
+		int[] n = new int[10];
+		Card[] c = new Card[10];
+		System.out.println(n[0]);
+		c[0] = new Card(0);
+		System.out.println(c[0].get());
+ 		
+		/*int m = 4;
+		int[] mm = new int[52];
+		
+		Card c = new Card(5);
+		Card[] cards = new Card[52];*/
+		
+		Poker poker = new Poker();
+		poker.shuffle();
+		poker.print();
+		
+		
+		
+		
+		/*int[] flowers = {0x2663, 0x2666, 0x2665, 0x2660};
 		int nums[] = new int[5];
 		nums[0] = 77;
 		nums[4] = 98;
@@ -41,5 +60,7 @@ public class PokerGame {
 		System.out.println(c);
 	
 	}
+}*/
+}
 }
 
