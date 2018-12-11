@@ -23,8 +23,6 @@ public class PokerGame {
 		poker.print();
 		
 		
-		
-		
 		/*int[] flowers = {0x2663, 0x2666, 0x2665, 0x2660};
 		int nums[] = new int[5];
 		nums[0] = 77;
